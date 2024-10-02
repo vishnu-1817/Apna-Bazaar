@@ -36,7 +36,7 @@ const CartPage = () => {
     }
   };
   return (
-    <Layout>
+    <Layout title={"Lets check out now"}>
       <div className="container">
         <div className="row">
           <div className="col-md-12">
@@ -62,7 +62,7 @@ const CartPage = () => {
                     className="card-img-top"
                     alt={p.name}
                     width="100px"
-                    height={"100px"}
+                    height={"300px"}
                   />
                 </div>
                 <div className="col-md-8">

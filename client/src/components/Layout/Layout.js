@@ -4,6 +4,8 @@ import Header from "./Header";
 import { Helmet } from "react-helmet";
 import { Toaster } from "react-hot-toast";
 const Layout = ({ children, title, description, keywords, author }) => {
+
+// const Layout =()=>{
   return (
     <div>
       <Helmet>
@@ -25,10 +27,10 @@ const Layout = ({ children, title, description, keywords, author }) => {
 };
 
 Layout.defaultProps = {
-  title: "Ecommerce app - shop now",
+  title: "ApnaBazaar",
   description: "mern stack project",
-  keywords: "mern,react,node,mongodb",
-  author: "Techinfoyt",
+  keywords: "mern,react,node,express,mongodb",
+  author: "VK",
 };
 
 export default Layout;
